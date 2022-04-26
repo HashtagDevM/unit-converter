@@ -8,6 +8,37 @@
 		<title>Unit Converter</title>
 	</head>
 	<body>
+		<div class="container">
+			<section class="top">
+				<div class="user-input">
+					<h1>Metric / Imperial unit conversion</h1>
+					<input type="text" id="input-el" class="input" placeholder="0" />
+				</div>
+				<button onclick="convert()">Convert</button>
+			</section>
+
+			<section class="bottom">
+				<div class="length">
+					<h2>Length (Meter/Feet)</h2>
+					<p id="length-el">0 meters = 0.000 feet | 0 feet = 0.000 meters</p>
+				</div>
+
+				<div class="volume">
+					<h2>Volume (Liter/Gallon)</h2>
+					<p id="volume-el">
+						0 liters = 0.000 gallons | 0 gallons = 0.000 liters
+					</p>
+				</div>
+
+				<div class="mass">
+					<h2>Mass (Kilogram/Pound)</h2>
+					<p id="mass-el">
+						0 kilograms = 0.000 pounds | 0 pounds = 0.000 kilograms
+					</p>
+				</div>
+			</section>
+		</div>
+
 		<script src="index.js"></script>
 	</body>
 </html>
