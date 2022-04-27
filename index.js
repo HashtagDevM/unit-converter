@@ -1,4 +1,4 @@
-let numEl = document.getElementById("input-el");
+let numEl = document.getElementById("num-el");
 numEl.textContent = numEl;
 
 function convert() {
@@ -15,22 +15,22 @@ function convert() {
 	)} feet | ${input} feet = ${meter.toFixed(3)} meters`;
 
 	// Volume
-	let liters = input / 3.785;
-	let gallons = input * 3.785;
+	let liter = input / 3.785;
+	let gallon = input * 3.785;
 
 	let volumeEl = document.getElementById("volume-el");
 
-	volumeEl.textContent = `${input} liters = ${gallons.toFixed(
+	volumeEl.textContent = `${input} liters = ${gallon.toFixed(
 		3
-	)} gallons | ${input} gallons = ${liters.toFixed(3)} liters`;
+	)} gallons | ${input} gallons = ${liter.toFixed(3)} liters`;
 
 	// Mass
-	let kilograms = input * 2.205;
-	let pounds = input / 2.205;
+	let kilo = input * 2.205;
+	let pound = input / 2.205;
 
 	let massEl = document.getElementById("mass-el");
 
-	massEl.textContent = `${input} kilograms = ${pounds.toFixed(
+	massEl.textContent = `${input} kilos = ${pound.toFixed(
 		3
-	)} pounds | ${input} pounds = ${kilograms.toFixed(3)} kilograms`;
+	)} pounds | ${input} pounds = ${kilo.toFixed(3)} kilos`;
 }

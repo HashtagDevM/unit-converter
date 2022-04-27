@@ -2,74 +2,73 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #222831;
+	background: #272723;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 }
 
 h1 {
-	font-size: 32px;
+	font-size: 24px;
+	font-weight: 800;
 	line-height: 38px;
 	letter-spacing: -0.05em;
 }
 
 h2 {
-	font-size: 24px;
+	color: #1a1921;
+	font-size: 16px;
+	font-weight: 600;
 	line-height: 20px;
+	letter-spacing: 0em;
 }
 
 p {
-	font-size: 16px;
+	color: #4e4e4e;
+	font-size: 14px;
+	font-weight: 400;
 	line-height: 20px;
-}
-
-button {
-	margin-top: 10px;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 10px;
-	color: #393e46;
-	font-size: 16px;
-	font-weight: bold;
-	text-transform: uppercase;
-	cursor: pointer;
-}
-
-.container {
-	width: 600px;
-	margin: 100px auto;
-}
-
-.top {
-	background-image: linear-gradient(
-		45deg,
-		hsl(24deg 85% 32%) 0%,
-		hsl(24deg 85% 39%) 9%,
-		hsl(24deg 85% 45%) 18%,
-		hsl(24deg 86% 50%) 27%,
-		hsl(22deg 98% 57%) 36%,
-		hsl(21deg 98% 64%) 45%,
-		hsl(22deg 98% 68%) 55%,
-		hsl(23deg 99% 71%) 64%,
-		hsl(20deg 99% 70%) 73%
-	);
-	color: #eee;
-	padding: 30px;
+	letter-spacing: 0em;
 }
 
 input {
 	background: transparent;
-	font-size: 24px;
-	color: #eee;
+	color: #fff;
+	font-size: 40px;
 	text-align: center;
-	width: 140px;
-	border: 2px solid #eee;
+	width: 120px;
+	padding: 10px 20px;
+	border: 2px solid #fff;
 	border-radius: 10px;
-	padding: 10px;
+}
+
+::placeholder {
+	color: #fff;
+}
+
+button {
+	background: #fff;
+	color: #2b75ec;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.container {
+	max-width: 500px;
+	margin: 50px auto;
+}
+
+.top {
+	background: linear-gradient(246.26deg, #3b83f7 0%, #06b6d4 100%);
+	color: #fff;
+	padding: 30px;
 }
 
 .bottom {
-	background-color: #eee;
-	color: #393e46;
+	background: #fff;
 	padding: 30px;
 }
