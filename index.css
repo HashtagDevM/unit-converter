@@ -6,14 +6,22 @@ body {
 	text-align: center;
 }
 
-/* .container {
+.container {
 	max-width: 550px;
-} */
+	margin: 100px auto;
+}
 
 .top {
-	background: #338df0;
+	background-color: #7dd3fc;
+	background-image: linear-gradient(
+		135deg,
+		#7dd3fc 0%,
+		#338df0 50%,
+		#7dd3fc 100%
+	);
 	color: #ffffff;
 	padding: 30px 30px 40px 30px;
+	border-radius: 10px 10px 0 0;
 }
 
 input {
@@ -24,7 +32,7 @@ input {
 	text-align: center;
 	color: #ffffff;
 	box-sizing: border-box;
-	width: 117px;
+	max-width: 150px;
 	height: 83px;
 	left: 217px;
 	top: 101px;
@@ -53,7 +61,8 @@ button {
 
 .bottom {
 	background: #1f2937;
-	padding: 30px;
+	padding: 30px 30px 6px 30px;
+	border-radius: 0 0 10px 10px;
 }
 
 .section {
